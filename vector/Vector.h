@@ -1,5 +1,6 @@
 #pragma once
-class Vector{
+class Vector
+{
 private:
 	int length, capacity;
 	int *elements;

@@ -1,12 +1,14 @@
 #include "Vector.h"
 
-Vector::Vector() {
+Vector::Vector() 
+{
 	length = 0;
 	capacity = 2;
 	elements = new int[2];
 }
 
-int Vector::size() {
+int Vector::size() 
+{
 	return this->length;
 }
 
